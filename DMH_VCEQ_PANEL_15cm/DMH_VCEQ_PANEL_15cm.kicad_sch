@@ -507,6 +507,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SynthStuff:MountingHole_ToggleSwitch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Function"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(italic yes)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Toggle Switch Mounting Hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "mounting hole toggle switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_ToggleSwitch_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_ToggleSwitch_1_1"
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SynthStuff:Panel_GND_Solder_Wire_Pad"
 			(pin_names
 				(offset 1.016)
@@ -874,6 +1000,12 @@
 		(uuid "687864f0-7af9-470f-9097-8008a2663963")
 	)
 	(junction
+		(at 222.25 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6af39d47-26cc-45bb-8cbe-a12e9d99c579")
+	)
+	(junction
 		(at 76.2 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -914,6 +1046,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bdb3aa5-a7b4-4814-990b-faa04cb8883d")
+	)
+	(junction
+		(at 190.5 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f6a2cf2-5534-4f46-be2d-c0f88a3127d3")
 	)
 	(junction
 		(at 152.4 114.3)
@@ -968,6 +1106,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba1ce4ca-1fa6-4f59-a916-576e717939db")
+	)
+	(junction
+		(at 190.5 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba543a10-d39a-4fbf-8c10-4e7cdda6c98b")
 	)
 	(junction
 		(at 127 88.9)
@@ -1052,6 +1196,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2c51d8b-c959-43f9-bb25-f837d4115e7d")
+	)
+	(junction
+		(at 222.25 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f751b267-63eb-493f-8885-d5a5dcaef659")
 	)
 	(junction
 		(at 76.2 57.15)
@@ -1177,6 +1327,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 101.6) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1796c456-47d0-4eaf-9689-123351bea7c4")
+	)
+	(wire
+		(pts
 			(xy 57.15 176.53) (xy 57.15 177.8)
 		)
 		(stroke
@@ -1217,6 +1377,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 107.95) (xy 222.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e59e026-a08c-496d-b97d-787fc45af36a")
+	)
+	(wire
+		(pts
 			(xy 92.71 177.8) (xy 92.71 176.53)
 		)
 		(stroke
@@ -1244,6 +1414,16 @@
 			(type default)
 		)
 		(uuid "26c3e40b-9521-4194-8022-d0fa7dea897b")
+	)
+	(wire
+		(pts
+			(xy 222.25 107.95) (xy 228.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b30b5c-5b62-44e3-a9bd-83e6120feccd")
 	)
 	(wire
 		(pts
@@ -1367,6 +1547,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 88.9) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342534b2-4ce3-4b4f-a547-9ad1e03efdd1")
+	)
+	(wire
+		(pts
 			(xy 152.4 29.21) (xy 152.4 31.75)
 		)
 		(stroke
@@ -1394,6 +1584,16 @@
 			(type default)
 		)
 		(uuid "36891862-b38d-4011-b86c-8099e4c5c633")
+	)
+	(wire
+		(pts
+			(xy 228.6 118.11) (xy 228.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a09784-a8f2-4825-841b-b1f38ac6eda1")
 	)
 	(wire
 		(pts
@@ -1544,6 +1744,16 @@
 			(type default)
 		)
 		(uuid "5166d39f-498e-446f-b336-5f878499b730")
+	)
+	(wire
+		(pts
+			(xy 190.5 88.9) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5171a850-eda7-492b-9e00-d12935849985")
 	)
 	(wire
 		(pts
@@ -1747,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 69.85) (xy 152.4 69.85)
+			(xy 222.25 69.85) (xy 190.5 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1874,6 +2084,16 @@
 			(type default)
 		)
 		(uuid "98ea09df-0ef0-43b8-a2aa-78344aac3441")
+	)
+	(wire
+		(pts
+			(xy 190.5 69.85) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9fcfd6-0f5d-4c31-b54d-4f61d86e40b4")
 	)
 	(wire
 		(pts
@@ -2067,6 +2287,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 120.65) (xy 222.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7f0930-c004-42b3-ba24-9dc8d40ba406")
+	)
+	(wire
+		(pts
 			(xy 222.25 63.5) (xy 222.25 69.85)
 		)
 		(stroke
@@ -2074,6 +2304,26 @@
 			(type default)
 		)
 		(uuid "ccf97b21-fd4d-41ef-a871-839ff9ff4642")
+	)
+	(wire
+		(pts
+			(xy 190.5 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1928032-6ce4-4e2a-a35c-2c68ecc68e8f")
+	)
+	(wire
+		(pts
+			(xy 228.6 105.41) (xy 228.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a8148b-a14a-411b-95b4-c3e964c4aa60")
 	)
 	(wire
 		(pts
@@ -2307,6 +2557,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 120.65) (xy 222.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd06bc44-1754-49dd-a80e-f62b306b953f")
+	)
+	(wire
+		(pts
 			(xy 76.2 67.31) (xy 76.2 69.85)
 		)
 		(stroke
@@ -2342,9 +2602,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "02fa8156-82d0-4091-9237-fabf0f583d12")
 		(property "Reference" "H49"
@@ -2522,7 +2782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 29"
+		(property "Value" "29"
 			(at 59.69 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2834,9 +3094,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "194d6307-e978-41d8-9d1d-5c02ac43ae57")
 		(property "Reference" "H56"
@@ -3244,9 +3504,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2d7b2b42-ad4d-4300-b506-5a32de041ec9")
 		(property "Reference" "H44"
@@ -3408,9 +3668,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "383b2776-6cdc-45df-9c85-33f0abceb1ad")
 		(property "Reference" "H48"
@@ -3490,9 +3750,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3bd9e1a8-a837-42cc-a324-4bb28bd693c4")
 		(property "Reference" "H47"
@@ -3905,9 +4165,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4ab2faf2-4164-4f88-81d3-81a12a8b8542")
 		(property "Reference" "H45"
@@ -4085,7 +4345,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 1k5"
+		(property "Value" "1k5"
 			(at 135.89 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4249,7 +4509,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 115"
+		(property "Value" "115"
 			(at 85.09 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4382,6 +4642,88 @@
 			(project "DMH_VCEQ_PANEL_15cm"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 228.6 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bb396d4-49af-4270-a02b-feb727c6fdc2")
+		(property "Reference" "H58"
+			(at 231.14 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FB/[DW]"
+			(at 231.14 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
+			(at 228.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Toggle Switch Mounting Hole"
+			(at 231.14 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1dbfd95b-ce19-4c85-b4f7-689cf4d6a3f3")
+		)
+		(instances
+			(project "DMH_VCEQ_PANEL_15cm"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H58")
 					(unit 1)
 				)
 			)
@@ -4559,8 +4901,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
-		(at 133.35 127 0)
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 228.6 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4568,6 +4910,88 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e468cb1-a9ef-4f63-856e-bc251aa75894")
+		(property "Reference" "H57"
+			(at 231.14 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M/S"
+			(at 231.14 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
+			(at 228.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Toggle Switch Mounting Hole"
+			(at 231.14 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6654838b-009d-4521-9cd8-c339b978595c")
+		)
+		(instances
+			(project "DMH_VCEQ_PANEL_15cm"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
+		(at 133.35 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6c41b4b0-398a-4a40-b5f2-33c58a7c9119")
 		(property "Reference" "H55"
@@ -5050,9 +5474,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "80afbf52-6d0b-4018-9da5-9cc42ca529c6")
 		(property "Reference" "H46"
@@ -5148,7 +5572,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 218"
+		(property "Value" "218"
 			(at 85.09 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5555,7 +5979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 5k2"
+		(property "Value" "5k2"
 			(at 161.29 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5637,7 +6061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 411"
+		(property "Value" "411"
 			(at 110.49 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5719,7 +6143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 61"
+		(property "Value" "61"
 			(at 59.69 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5801,7 +6225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 777"
+		(property "Value" "777"
 			(at 110.49 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5943,6 +6367,88 @@
 		)
 	)
 	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 196.85 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1247914-07d9-490d-aad7-48bf9a5fccb8")
+		(property "Reference" "H59"
+			(at 199.39 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FB"
+			(at 199.39 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 196.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 199.39 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d9d88f69-29ab-4eb4-896f-53a929e1ebad")
+		)
+		(instances
+			(project "DMH_VCEQ_PANEL_15cm"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SynthStuff:MountingHole_Pot")
 		(at 76.2 26.67 0)
 		(unit 1)
@@ -6031,9 +6537,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b4929b18-eaf1-4ede-84c4-1cf4a2d287fc")
 		(property "Reference" "H50"
@@ -6382,7 +6888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 2k8"
+		(property "Value" "2k8"
 			(at 135.89 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6546,7 +7052,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 11k"
+		(property "Value" "11k"
 			(at 161.29 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6688,6 +7194,88 @@
 		)
 	)
 	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 196.85 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eebd0137-9424-471d-a6c8-983784c11cb8")
+		(property "Reference" "H60"
+			(at 199.39 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DW"
+			(at 199.39 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 196.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 199.39 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "37802a70-d9a2-46b6-bf9b-bc784e5c8829")
+		)
+		(instances
+			(project "DMH_VCEQ_PANEL_15cm"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SynthStuff:MountingHole_Pot")
 		(at 190.5 52.07 0)
 		(unit 1)
@@ -6710,7 +7298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Feedback"
+		(property "Value" "FB"
 			(at 193.04 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6854,9 +7442,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f60b23ea-bc23-43ab-825a-1224fba865ca")
 		(property "Reference" "H43"
